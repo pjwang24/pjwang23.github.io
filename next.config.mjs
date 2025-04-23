@@ -11,6 +11,8 @@ const nextConfig = {
   },
   output: 'export',
   distDir: 'docs',
+  basePath: '/pjwang23.github.io',         // 👈 add this
+  assetPrefix: '/pjwang23.github.io',      // 👈 optional but recommended
 }
 
-export default nextConfig
+export default nextConfig;
